@@ -651,14 +651,7 @@ textarea {
 	display: block;
 	width: 100%;
 
-	background-color: rgb(255, 61, 0);
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 70px;
-    text-align: right;
-    position: fixed;
-    z-index: 6;
+	
 }
 
 .main-navigation ul {
