@@ -22,8 +22,8 @@
     <meta name="description" content="Najwspanialsza pizza na świecie">
     <meta name="author" content="Robert Dreszer">
     <meta name="keywords" content="Pizza, pysznie, szybko, tanio">
-    <link rel="stylesheet" href="/underscorepluswoo/wp-content/themes/thissite/fontello-54a7ed3d/css/fontello.css">
-    <link rel="stylesheet" href="/underscorepluswoo/wp-content/themes/thissite/css/thissite-style.css">
+    <link rel="stylesheet" href="fontello-54a7ed3d/css/fontello.css">
+    <link rel="stylesheet" href="../thissite/css/thissite-style.css">
     <title>Pizzeria Vesuviana</title>
 
 	<?php wp_head(); ?>
