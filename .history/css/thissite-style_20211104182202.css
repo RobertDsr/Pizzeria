@@ -120,6 +120,26 @@ body {
     padding: 7px 20px !important;
 }
 
+/* . */
+
+.btnHeader:hover {
+    font-size: 25px;
+    width: 11vw;
+    height: 5.1vh;
+}
+
+.btnHeader a {
+    color: black;
+    text-decoration: none;
+}
+
+.content {
+    position: relative;
+    top: 0;
+    left: 0;
+    color: rgb(255, 61, 0);
+}
+
 .welcome {
     position: absolute;
     margin-top: 100vh;
@@ -133,15 +153,14 @@ body {
     text-align: center;
     margin-bottom: 30px;
     margin-top: 10vh;
-    color: rgb(255, 61, 0);
 }
 
 .textWelcome {
     display: inline-block;
     width: 50vw;
+    /* margin: 30px; */
     padding: 100px;
     line-height: 2rem;
-    color: rgb(255, 61, 0);
 }
 
 .collage {

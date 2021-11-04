@@ -133,15 +133,14 @@ body {
     text-align: center;
     margin-bottom: 30px;
     margin-top: 10vh;
-    color: rgb(255, 61, 0);
 }
 
 .textWelcome {
     display: inline-block;
     width: 50vw;
+    /* margin: 30px; */
     padding: 100px;
     line-height: 2rem;
-    color: rgb(255, 61, 0);
 }
 
 .collage {

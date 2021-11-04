@@ -109,6 +109,11 @@ body {
     display: none;
 }
 
+.logoBanner {
+    margin-top: 10vh;
+    margin-left: 90vw;
+}
+
 .baner-button {
     position: absolute;
     left: 50vw;
@@ -118,6 +123,48 @@ body {
 
 .wp-block-button__link {
     padding: 7px 20px !important;
+}
+
+/* .welcome {
+
+} */
+
+.sloganHeader {
+    font-size: 60px;
+    font-family: cursive;
+    margin-top: 40vh;
+    margin-left: 10vw;
+}
+
+.btnHeader {
+    background-color: rgb(255, 61, 0);
+    width: 10vw;
+    height: 5vh;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10vh;
+    margin-left: 45vw;
+}
+
+.btnHeader:hover {
+    font-size: 25px;
+    width: 11vw;
+    height: 5.1vh;
+}
+
+.btnHeader a {
+    color: black;
+    text-decoration: none;
+}
+
+.content {
+    position: relative;
+    top: 0;
+    left: 0;
+    color: rgb(255, 61, 0);
 }
 
 .welcome {
@@ -133,15 +180,14 @@ body {
     text-align: center;
     margin-bottom: 30px;
     margin-top: 10vh;
-    color: rgb(255, 61, 0);
 }
 
 .textWelcome {
     display: inline-block;
     width: 50vw;
+    /* margin: 30px; */
     padding: 100px;
     line-height: 2rem;
-    color: rgb(255, 61, 0);
 }
 
 .collage {
