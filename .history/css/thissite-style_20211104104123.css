@@ -51,32 +51,10 @@ body {
     color: #000000;
     font-size: 20px;
     text-transform:uppercase;
-}
-
-.main-navigation a:hover {
-    color: #fff;
-}
-
-.menu-item {
     text-align: center;
-    margin: 20px;
-    font-family: cursive;
 }
 
-.menu-item-23 {
-    margin-top: 0;
-}
-
-.menu-item-23 a {
-    margin-left: 20px;
-    text-transform:capitalize;
-    text-align: center;
-    font-size: 40px;
-}
-
-.menu-item-19 {
-    margin-left: 40vw;
-}
+nav-menu
 
 nav.mainMenu a {
     display: inline-block;
