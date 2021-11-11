@@ -100,13 +100,18 @@ body {
 
 .baner-button {
     position: absolute;
+    width: 10
+vw
+;
+    height: 5
+vh;
     left: 50vw;
     top: 80vh;
 }
 
 .wp-block-button__link {
-    padding: calc(.667em + 2px) calc(1.333em + 20px);
-    font-size: 20px;
+    padding: 10px 50px !important;
+    font-size: 20px !important;
     font-weight: 400;
     
 }
@@ -135,7 +140,7 @@ body {
     color: rgb(255, 61, 0);
 }
 
-/* .collage {
+.collage {
     position: relative;
     display: inline-block;
     font-size: 0;
@@ -143,10 +148,6 @@ body {
 
 .collage img {
     max-width: 14.5vw;
-} */
-
-.ts_new_posts {
-    position: absolute;
 }
 
 .bg2 {

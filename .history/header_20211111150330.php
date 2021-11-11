@@ -27,7 +27,7 @@
     <title>Pizzeria Vesuviana</title>
 
 	<?php wp_head(); ?>
-	<link rel="stylesheet" href="/underscorepluswoo/wp-content/themes/thissite/css/thissite-style.css">
+	
 </head>
 
 <body <?php body_class(); ?>>

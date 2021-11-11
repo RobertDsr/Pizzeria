@@ -1,4 +1,4 @@
-/* 
+
 Theme Name: thisSite
 Theme URI: https://robertdreszer.pl/
 Author: Robert Dreszer
@@ -10,7 +10,7 @@ Requires PHP: 5.6
 License: GNU General Public License v2 or later
 License URI: LICENSE
 Text Domain: thissite
-Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready */
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
 
 * {
     margin: 0;
@@ -21,6 +21,7 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 body {
     font-family: 'roboto condensed', Arial, Helvetica, sans-serif;
 }
+
 
 
 /* Banner i menu */
@@ -83,15 +84,15 @@ body {
 
 .custom-logo {
     position: absolute;
-    top: 150px;
-    right: 300px;
+    margin-top: 100px;
+    margin-left: 1600px;
     z-index: 1;
 }
 
 .post-thumbnail {
     max-height: 100vh;
     position: fixed;
-    min-height: 92vh;
+        min-height: 92vh;
 }
 
 .entry-title {
@@ -101,14 +102,12 @@ body {
 .baner-button {
     position: absolute;
     left: 50vw;
-    top: 80vh;
+    margin-top: 80vh;
+    /* padding: 2px 100px; */
 }
 
 .wp-block-button__link {
-    padding: calc(.667em + 2px) calc(1.333em + 20px);
-    font-size: 20px;
-    font-weight: 400;
-    
+    padding: 7px 20px !important;
 }
 
 .welcome {
@@ -135,7 +134,7 @@ body {
     color: rgb(255, 61, 0);
 }
 
-/* .collage {
+.collage {
     position: relative;
     display: inline-block;
     font-size: 0;
@@ -143,10 +142,6 @@ body {
 
 .collage img {
     max-width: 14.5vw;
-} */
-
-.ts_new_posts {
-    position: absolute;
 }
 
 .bg2 {

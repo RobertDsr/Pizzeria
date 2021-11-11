@@ -40,4 +40,4 @@ thisSite includes support for WooCommerce and for Infinite Scroll in Jetpack.
 
 
 Do zrobienia:
-Podszkolić się we flexie i poukładać wszystko 
+Podszkolić się we flexioe i 

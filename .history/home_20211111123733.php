@@ -37,7 +37,7 @@ get_header();
 		endif;
 		?>
 
-		<p>Czy to jest ta strona?</p>
+		<p>Czy to jest ta strona</p>
 
 	</main><!-- #main -->
 

@@ -135,7 +135,7 @@ body {
     color: rgb(255, 61, 0);
 }
 
-/* .collage {
+.collage {
     position: relative;
     display: inline-block;
     font-size: 0;
@@ -143,10 +143,6 @@ body {
 
 .collage img {
     max-width: 14.5vw;
-} */
-
-.ts_new_posts {
-    position: absolute;
 }
 
 .bg2 {

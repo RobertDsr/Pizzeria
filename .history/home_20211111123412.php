@@ -37,10 +37,8 @@ get_header();
 		endif;
 		?>
 
-		<p>Czy to jest ta strona?</p>
-
 	</main><!-- #main -->
 
 <?php
 // get_sidebar();
-// get_footer();
+get_footer();

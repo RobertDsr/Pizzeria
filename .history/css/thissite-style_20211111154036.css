@@ -149,6 +149,10 @@ body {
     position: absolute;
 }
 
+.wrapper {
+    background-color: aquamarine;
+}
+
 .bg2 {
     background-color: #fff;
     background-image: url("../img/stoliki.jpg");
