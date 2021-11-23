@@ -42,7 +42,7 @@
     </div><!-- .site-info -->
 
     <div class="pp">
-        <a href="#">Regulamin</a>
+        <a  href="#">Regulamin</a>
         <a href="#">Polityka prywatności</a>
     </div>
 

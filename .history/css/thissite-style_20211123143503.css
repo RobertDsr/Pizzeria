@@ -27,21 +27,13 @@ a {
     text-decoration: none;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
 
 /* Banner i menu */
 
-.page-template-default {
-    background-image: url(../img/pizzaHeader.jpg);
-}
 .main-navigation {
     background-color: rgb(255, 61, 0);
     top: 0;
@@ -56,7 +48,7 @@ h6 {
 .main-navigation a {
     color: #000000;
     font-size: 20px;
-    text-transform: uppercase;
+    text-transform:uppercase;
 }
 
 .main-navigation a:hover {
@@ -75,7 +67,7 @@ h6 {
 
 .menu-item-23 a {
     margin-left: 20px;
-    text-transform: capitalize;
+    text-transform:capitalize;
     text-align: center;
     font-size: 40px;
 }
@@ -105,9 +97,7 @@ h6 {
     display: none;
 }
 
-.wp-block-buttons.is-content-justification-right>.wp-block-button.wp-block-button,
-.wp-block-buttons>.wp-block-button.wp-block-button,
-.baner-button {
+.wp-block-buttons.is-content-justification-right > .wp-block-button.wp-block-button, .wp-block-buttons > .wp-block-button.wp-block-button, .baner-button {
     margin-left: 50vw;
 }
 
@@ -115,7 +105,7 @@ h6 {
     padding: calc(.667em + 2px) calc(1.333em + 20px);
     font-size: 20px;
     font-weight: 400;
-
+    
 }
 
 /* sekcja zapraszamy */
@@ -145,7 +135,7 @@ h6 {
     line-height: 2rem;
 }
 
-.bg2 {
+ .bg2 {
     background-image: url("../img/stoliki.jpg");
 }
 
@@ -181,7 +171,6 @@ h6 {
 
 .ts_new_posts {
     min-height: 80vh;
-    margin-bottom: -30px;
 
 }
 
@@ -193,7 +182,8 @@ h6 {
 
 .info {
     min-height: 60vh;
-    margin-bottom: -30px;
+    margin-top: -30px;
+    /* margin-bottom: -30px; */
 }
 
 .info-images {
@@ -272,47 +262,133 @@ footer {
 }
 
 .pp {
-    margin-left: 850px;
+    margin-left:850px;
     padding: 20px;
 }
 
 .pp a {
-    /* color: #ffffff; */
+    color: #ffffff;
     text-decoration: none;
-    padding: 20px;
-}
-
-/* wpisy */
-
-.site-posts-main {
-    max-width: 60vw;
-    margin-left: 5vw;
-}
-
-/* obrazek nagłówka ww wpisach */
-
-.ts-post-thumbnail {
-    position: absolute;
-}
-
-.ts-post-thumbnail img {
-    max-height: 75vh;
-}
-
-.site-branding {
-    position: relative;
-    z-index: 1;
-}
-
-.post-thumbnail {
-display: none;
-}
+} 
 
 
 
 
 
 /*
+.info {
+    background-color: rgb(255, 61, 0);
+}
+
+.info img {
+    float: left;
+    margin-left: 50px;
+    margin-top: 15vh;
+}
+
+.info p {
+    float: left;
+    height: 100px;
+    font-size: 25px;
+    font-family: cursive;
+    font-style: italic;
+    text-align: center;
+}
+
+.textCook {
+    margin-top: 300px;
+    margin-left: -240px;
+    margin-right: 100px;
+}
+
+.textBake {
+    margin-top: 300px;
+    margin-left: -270px;
+    margin-right: 100px;
+}
+
+.textAdd {
+    margin-top: 300px;
+    margin-left: -210px;
+}
+
+.textDelivery {
+    margin-top: 300px;
+    margin-left: -230px;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+footer {
+    float: left;
+    width: 100%;
+    height: 50vh;
+    color: white;
+    background-color: black;
+}
+
+.logoFooter {
+    margin-top: 70px;
+    margin-left: 100px;
+}
+
+.address {
+    margin-top: -130px;
+    margin-left: 400px;
+    line-height: 2rem;
+}
+
+.openTime {
+    margin-top: -130px;
+    margin-left: 700px;
+    padding-bottom: 100px;
+    line-height: 3rem;
+    font-size: 20px;
+    font-style: italic;
+    font-family: cursive;
+}
+
+.openTime p:nth-child(1) {
+    font-size: 40px;
+}
+
+.offer {
+    margin-top: -200px;
+    margin-left: 1000px;
+    line-height: 3rem;
+    text-align: center;
+}
+
+.offer p:nth-child(1) {
+    font-size: 30px;
+    font-style: italic;
+    font-family: cursive;
+}
+
+.offer p:nth-child(2) {
+    font-size: 25px;
+    font-style: italic;
+    font-family: cursive;
+}
+
+.copyright {
+    margin-top: -20px;
+    margin-left: 80px;
+}
+
+.pp {
+    margin-top: 50px;
+    margin-left: 1200px;
+}
+
+.pp a {
+    color: #ffffff;
+    text-decoration: none;
+} */
 
 /* responsywność */
 

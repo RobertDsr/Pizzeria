@@ -10,7 +10,7 @@
 get_header();
 ?>
 
-	<main id="primary" class="site-posts-main">
+	<main id="primary" class="site-main">
 
 		<?php
 		while ( have_posts() ) :
@@ -37,4 +37,4 @@ get_header();
 
 <?php
 get_sidebar();
-get_footer('content');
+get_footer('');

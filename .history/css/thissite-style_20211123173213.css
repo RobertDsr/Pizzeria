@@ -291,21 +291,13 @@ footer {
 
 /* obrazek nagłówka ww wpisach */
 
-.ts-post-thumbnail {
-    position: absolute;
-}
+.post-thumbnail {
 
-.ts-post-thumbnail img {
-    max-height: 75vh;
 }
 
 .site-branding {
-    position: relative;
+    position: absolute;
     z-index: 1;
-}
-
-.post-thumbnail {
-display: none;
 }
 
 

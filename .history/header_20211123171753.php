@@ -36,13 +36,7 @@
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'thissite' ); ?></a>
 
 	<header id="masthead" class="site-header">
-
-		<div class="ts-post-thumbnail">
-			<?php
-			the_post_thumbnail();
-			?>
-		</div>
-
+		div
 		<div class="site-branding">
 			<?php
 			the_custom_logo();

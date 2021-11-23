@@ -37,7 +37,7 @@
 
 	<header id="masthead" class="site-header">
 
-		<div class="ts-post-thumbnail">
+		<div class="ts-post-thum">
 			<?php
 			the_post_thumbnail();
 			?>

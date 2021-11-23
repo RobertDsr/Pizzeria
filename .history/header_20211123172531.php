@@ -37,12 +37,7 @@
 
 	<header id="masthead" class="site-header">
 
-		<div class="ts-post-thumbnail">
-			<?php
-			the_post_thumbnail();
-			?>
-		</div>
-
+	
 		<div class="site-branding">
 			<?php
 			the_custom_logo();

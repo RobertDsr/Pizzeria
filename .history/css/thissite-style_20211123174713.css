@@ -295,18 +295,13 @@ footer {
     position: absolute;
 }
 
-.ts-post-thumbnail img {
-    max-height: 75vh;
-}
-
 .site-branding {
-    position: relative;
-    z-index: 1;
+    z-index: ;
 }
 
 .post-thumbnail {
 display: none;
-}
+} */
 
 
 

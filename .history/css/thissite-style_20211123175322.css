@@ -296,12 +296,12 @@ footer {
 }
 
 .ts-post-thumbnail img {
-    max-height: 75vh;
+    max-height: 20vh;
 }
 
 .site-branding {
     position: relative;
-    z-index: 1;
+    z-index: 99;
 }
 
 .post-thumbnail {

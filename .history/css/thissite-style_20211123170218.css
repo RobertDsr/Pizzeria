@@ -289,23 +289,14 @@ footer {
     margin-left: 5vw;
 }
 
+.single-post {
+    background-image: none;
+}
+
 /* obrazek nagłówka ww wpisach */
 
-.ts-post-thumbnail {
-    position: absolute;
-}
-
-.ts-post-thumbnail img {
-    max-height: 75vh;
-}
-
-.site-branding {
-    position: relative;
-    z-index: 1;
-}
-
 .post-thumbnail {
-display: none;
+
 }
 
 

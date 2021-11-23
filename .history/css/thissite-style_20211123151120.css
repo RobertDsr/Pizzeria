@@ -39,9 +39,6 @@ h6 {
 
 /* Banner i menu */
 
-.page-template-default {
-    background-image: url(../img/pizzaHeader.jpg);
-}
 .main-navigation {
     background-color: rgb(255, 61, 0);
     top: 0;
@@ -284,28 +281,15 @@ footer {
 
 /* wpisy */
 
-.site-posts-main {
+.site-main {
     max-width: 60vw;
-    margin-left: 5vw;
+    margin-left: ;
 }
 
 /* obrazek nagłówka ww wpisach */
 
-.ts-post-thumbnail {
-    position: absolute;
-}
-
-.ts-post-thumbnail img {
-    max-height: 75vh;
-}
-
-.site-branding {
-    position: relative;
-    z-index: 1;
-}
-
 .post-thumbnail {
-display: none;
+
 }
 
 
