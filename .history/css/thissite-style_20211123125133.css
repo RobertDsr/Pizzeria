@@ -180,21 +180,28 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 footer {
+    /* float: left; */
     width: 100%;
     color: white;
 }
 
 .logoFooter {
+    /* margin-top: -70px; */
     margin-left: -1380px;
 }
 
 .address {
+    /* margin-top: -130px; */
+    /* margin-left: 40px; */
     padding: 40px;
     margin-left: 60px;
     line-height: .5rem;
 }
 
 .openTime {
+    /* margin-top: -170px; */
+    /* margin-left: 700px; */
+    /* padding-bottom: 100px; */
     padding: 40px;
     margin-top: 20px;
     margin-left: 300px;
@@ -209,6 +216,8 @@ footer {
 }
 
 .offer {
+    /* margin-top: -200px; */
+    /* margin-left: 1000px; */
     padding: 40px;
     margin-top: 20px;
     margin-left: 200px;
@@ -229,6 +238,7 @@ footer {
 }
 
 .pp {
+    /* margin-top: 50px; */
     margin-left:850px;
     padding: 20px;
 }
