@@ -97,9 +97,12 @@ h1, h2, h3, h4, h5, h6 {
     display: none;
 }
 
-.wp-block-buttons.is-content-justification-right > .wp-block-button.wp-block-button, .wp-block-buttons > .wp-block-button.wp-block-button, .baner-button {
-    margin-left: 50vw;
-}
+/* .baner-button {
+    display: block;
+    margin-left: 50vw !important;
+} */
+
+.wp-block-button .banner
 
 .wp-block-button__link {
     padding: calc(.667em + 2px) calc(1.333em + 20px);
@@ -133,7 +136,8 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 2rem;
 }
 
- .bg2 {
+/* .bg2 {
+    background-color: #fff;
     background-image: url("../img/stoliki.jpg");
 }
 
@@ -142,10 +146,10 @@ h1, h2, h3, h4, h5, h6 {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: -30px;
 }
 
 .promotion h2 {
+    margin-left: 40vw;
     font-family: cursive;
     font-style: italic;
     font-size: 60px;
@@ -154,92 +158,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .promotion p {
-    margin-left: 41vw;
+    margin-left: 40vw;
     font-family: cursive;
     font-style: italic;
     font-size: 40px;
     color: rgb(255, 61, 0);
 }
 
-.wp-block-columns.are-vertically-aligned-center {
-    margin-top: -30px;
-}
 
-/* footer */
-
-.site-footer {
-    background-color: #000000;
-}
-
-footer {
-    float: left;
-    width: 100%;
-    height: 50vh;
-    color: white;
-    background-color: black;
-}
-
-.logoFooter {
-    margin-top: 70px;
-    margin-left: 100px;
-}
-
-.address {
-    margin-top: -130px;
-    margin-left: 400px;
-    line-height: 2rem;
-}
-
-.openTime {
-    margin-top: -130px;
-    margin-left: 700px;
-    padding-bottom: 100px;
-    line-height: 3rem;
-    font-size: 20px;
-    font-style: italic;
-    font-family: cursive;
-}
-
-.openTime p:nth-child(1) {
-    font-size: 40px;
-}
-
-.offer {
-    margin-top: -200px;
-    margin-left: 1000px;
-    line-height: 3rem;
-    text-align: center;
-}
-
-.offer p:nth-child(1) {
-    font-size: 30px;
-    font-style: italic;
-    font-family: cursive;
-}
-
-.offer p:nth-child(2) {
-    font-size: 25px;
-    font-style: italic;
-    font-family: cursive;
-}
-
-.copyright {
-    margin-top: -20px;
-    margin-left: 80px;
-}
-
-.pp {
-    margin-top: 50px;
-    margin-left: 1200px;
-}
-
-.pp a {
-    color: #ffffff;
-    text-decoration: none;
-} */
-
-
-/*
 .info {
     background-color: rgb(255, 61, 0);
 }
