@@ -697,16 +697,7 @@ footer {
 
     .menu-toggle {
         background-color: var(--main-color);
-        border: none;
-        cursor: pointer;
-        margin: auto;
-        line-height: 4rem;
-        font-size: 2rem;
-    }
-
-    .main-navigation ul {
-        font-weight: bold;
-        background-color: var(--main-color);
+        
     }
 
     .custom-logo {

@@ -40,5 +40,5 @@ thisSite includes support for WooCommerce and for Infinite Scroll in Jetpack.
 
 
 Do zrobienia:
-strona bloga, strona kategorii, strona wyszukiwania,
+strona bloga, strona kategorii, strona wyszukiwania, responsywność (hamburger przy max-width:600px)
 

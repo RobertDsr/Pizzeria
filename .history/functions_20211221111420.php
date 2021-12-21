@@ -165,7 +165,8 @@ function thissite_scripts() {
 	wp_style_add_data( 'thissite-style', 'rtl', 'replace' );
 
 	wp_enqueue_script( 'thissite-navigation', get_template_directory_uri() . '/js/navigation.js', array(), THISSITE_VERSION, true );
-	
+	// echo get _template_directory_uri() . '/js/navigation.js';
+	// exit;
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}

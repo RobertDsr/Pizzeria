@@ -704,10 +704,7 @@ footer {
         font-size: 2rem;
     }
 
-    .main-navigation ul {
-        font-weight: bold;
-        background-color: var(--main-color);
-    }
+    .main-na
 
     .custom-logo {
         margin: 100px auto;

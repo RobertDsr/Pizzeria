@@ -22,7 +22,7 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 --main-color: rgb(255,61,0);
 --main-color-2: rgb(17, 17, 17);
 --font-color-black: rgb(0, 0, 0);
---font-color-white: rgb(255, 255, 255);
+--font-color-hover: rgb(255, 255, 255);
 --bg-color-black-gray: rgb(34, 34, 34);
 }
 
@@ -70,7 +70,7 @@ h6 {
 }
 
 .main-navigation a:hover {
-    color: var(--font-color-white);
+    color: var(--font-color-hover);
 }
 
 .menu-item {
@@ -229,7 +229,7 @@ h6 {
 
 footer {
     width: 100%;
-    color: var(--font-color-white);
+    color: var(--font-color-hover);
 }
 
 .logoFooter {
@@ -328,9 +328,9 @@ footer {
 .widget-area {
     margin: 50px 20px 0 250px;
     padding: 10px 10px 10px 20px;
-    background-color: var(--bg-color-black-gray);
+    background-color: ;
     font-family: cursive;
-    color: var(--font-color-white);
+    color: #fff;
 }
 
 /* sidebar-post */
@@ -696,17 +696,7 @@ footer {
 @media (max-width: 600px) {
 
     .menu-toggle {
-        background-color: var(--main-color);
-        border: none;
-        cursor: pointer;
-        margin: auto;
-        line-height: 4rem;
-        font-size: 2rem;
-    }
-
-    .main-navigation ul {
-        font-weight: bold;
-        background-color: var(--main-color);
+        background-color: ;
     }
 
     .custom-logo {
