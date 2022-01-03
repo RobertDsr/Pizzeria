@@ -1,7 +1,7 @@
 <?php
 
 /**
- * The template for displaying archive pages
+ * The template for displaying category pages
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
@@ -11,6 +11,7 @@ get_header();
 ?>
 
 <div class="ts-wrapper-posts" >
+
 	<main id="primary" class="site-main">
 
 		<?php if (have_posts()) : ?>

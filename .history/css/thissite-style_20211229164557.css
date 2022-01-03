@@ -37,10 +37,6 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    color: var(--font-color-white);
-}
-
 h1,
 h2,
 h3,
@@ -48,19 +44,10 @@ h4,
 h5,
 h6 {
     text-align: center;
-    color: var(--font-color-white);
 }
 
 p {
     color: var(--main-color);
-}
-
-.site {
-    max-height: 100vh;
-}
-
-.post, .page {
-    margin: 0;
 }
 
 /* Banner i menu */
@@ -182,7 +169,7 @@ p {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    /* margin-top: -30px; */
+    margin-top: -30px;
 }
 
 .promotion h2 {
@@ -204,12 +191,12 @@ p {
 /* Nowe posty */
 
 .wp-block-columns.are-vertically-aligned-center {
-    /* margin-top: -30px; */
+    margin-top: -30px;
 }
 
 .ts_new_posts {
     min-height: 80vh;
-    /* margin-bottom: -30px; */
+    margin-bottom: -30px;
 
 }
 
@@ -217,7 +204,7 @@ p {
 
 .info {
     min-height: 60vh;
-    /* margin-bottom: -30px; */
+    margin-bottom: -30px;
 }
 
 .info-images {
@@ -226,7 +213,6 @@ p {
 
 .wp-block-columns {
     flex-basis: 100%;
-    margin-bottom: 0;
 }
 
 .wp-block-image figcaption {
@@ -240,7 +226,7 @@ p {
 .site-footer {
     display: flex;
     flex-wrap: wrap;
-    /* margin-bottom: -30px; */
+    margin-bottom: -30px;
     background-color: var(--font-color-black);
     justify-content: space-between;
 }
@@ -316,20 +302,13 @@ footer {
     display: flex;
 }
 
-/* .site-posts-main {
+.site-posts-main {
     max-width: 60vw;
     margin-left: 5vw;
     padding: 0 100px 30px 0;
     font-family: cursive;
     font-size: 18px;
     color: var(--main-color);
-} */
-
-.uagb-post-grid {
-    max-width: 99.1vw;
-    padding: 100px;
-    background-color: var(--font-color-black);
-    /* margin-top: -30px; */
 }
 
 /* obrazek nagłówka we wpisach */
@@ -366,8 +345,8 @@ footer {
 /* sidebar główny */
 
 .widget-area {
-    margin: 25px 0;
-    /* padding: 10px 10px 10px 20px; */
+    margin: 50px 20px 0 250px;
+    padding: 10px 10px 10px 20px;
     background-color: var(--bg-color-black-gray);
     font-family: cursive;
     color: var(--font-color-white);
@@ -380,13 +359,7 @@ footer {
     max-height: 75vh;
 }
 
-/* .ts-wrapper-posts {
-    padding: 100px 0;
-} */
-
-.wp-block-latest-posts.wp-block-latest-posts__list li {
-    margin-bottom: 50px;
-}
+.ts-wrapper-posts 
 
 /* podstrony */
 

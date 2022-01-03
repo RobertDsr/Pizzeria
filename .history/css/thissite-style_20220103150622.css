@@ -55,14 +55,6 @@ p {
     color: var(--main-color);
 }
 
-.site {
-    max-height: 100vh;
-}
-
-.post, .page {
-    margin: 0;
-}
-
 /* Banner i menu */
 
 .page-template-default {
@@ -226,7 +218,7 @@ p {
 
 .wp-block-columns {
     flex-basis: 100%;
-    margin-bottom: 0;
+    
 }
 
 .wp-block-image figcaption {
@@ -312,9 +304,9 @@ footer {
 
 /* wpisy */
 
-.ts-wrapper-posts {
+/* .ts-wrapper-posts {
     display: flex;
-}
+} */
 
 /* .site-posts-main {
     max-width: 60vw;
@@ -380,9 +372,9 @@ footer {
     max-height: 75vh;
 }
 
-/* .ts-wrapper-posts {
+.ts-wrapper-posts {
     padding: 100px 0;
-} */
+}
 
 .wp-block-latest-posts.wp-block-latest-posts__list li {
     margin-bottom: 50px;

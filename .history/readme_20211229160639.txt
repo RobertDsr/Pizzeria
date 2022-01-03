@@ -40,7 +40,7 @@ thisSite includes support for WooCommerce and for Infinite Scroll in Jetpack.
 
 
 Do zrobienia:
-strona wyszukiwania, przerobić stopkę na widget.
+strona kategorii, strona wyszukiwania, przerobić stopkę na widget.
 
 
 Hierarchia plików:

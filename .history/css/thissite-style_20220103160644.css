@@ -60,7 +60,7 @@ p {
 }
 
 .post, .page {
-    margin: 0;
+    mar
 }
 
 /* Banner i menu */
@@ -312,9 +312,9 @@ footer {
 
 /* wpisy */
 
-.ts-wrapper-posts {
+/* .ts-wrapper-posts {
     display: flex;
-}
+} */
 
 /* .site-posts-main {
     max-width: 60vw;

@@ -1,7 +1,7 @@
 <?php
 
 /**
- * The template for displaying archive pages
+ * The template for displaying category pages
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
@@ -11,6 +11,7 @@ get_header();
 ?>
 
 <div class="ts-wrapper-posts" >
+
 	<main id="primary" class="site-main">
 
 		<?php if (have_posts()) : ?>
@@ -32,7 +33,7 @@ get_header();
 				 * If you want to override this in a child theme, then include a file
 				 * called content-___.php (where ___ is the Post Type name) and that will be used instead.
 				 */
-				get_template_part('template-parts/content', get_post_type());
+				get_template_part('template-parts/content-blog', get_post_type());
 
 			endwhile;
 
@@ -48,8 +49,8 @@ get_header();
 	</main><!-- #main -->
 
 	<?php
-	get_sidebar();
+	get_sidebar('post');
 	?>
 </div>
 <?php
-get_footer();
+get_footer('content');

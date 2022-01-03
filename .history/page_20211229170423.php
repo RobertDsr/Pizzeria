@@ -14,7 +14,7 @@
 
 get_header();
 ?>
-<div class="ts-wrapper-posts">
+
 	<main id="primary" class="site-main">
 
 		<?php
@@ -35,7 +35,4 @@ get_header();
 
 <?php
 get_sidebar();
-?>
-</div>
-<?php
 get_footer('content');

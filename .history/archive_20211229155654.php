@@ -10,7 +10,7 @@
 get_header();
 ?>
 
-<div class="ts-wrapper-posts" >
+<div>
 	<main id="primary" class="site-main">
 
 		<?php if (have_posts()) : ?>

@@ -1,8 +1,7 @@
 <?php
 /**
- * The template for displaying all pages
+ * The template for displaying front page
  *
- * This is the template that displays all pages by default.
  * Please note that this is the WordPress construct of pages
  * and that other 'pages' on your WordPress site may use a
  * different template.
@@ -33,9 +32,6 @@ get_header();
 
 	</main><!-- #main -->
 
-<?php
-get_sidebar();
-?>
 </div>
 <?php
 get_footer('content');

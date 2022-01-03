@@ -11,6 +11,7 @@ get_header();
 ?>
 
 <div class="ts-wrapper-posts" >
+    <H1>CZY TO TEN PLIK?</H1>
 	<main id="primary" class="site-main">
 
 		<?php if (have_posts()) : ?>

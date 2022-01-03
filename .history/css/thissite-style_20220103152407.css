@@ -59,10 +59,6 @@ p {
     max-height: 100vh;
 }
 
-.post, .page {
-    margin: 0;
-}
-
 /* Banner i menu */
 
 .page-template-default {
@@ -312,9 +308,9 @@ footer {
 
 /* wpisy */
 
-.ts-wrapper-posts {
+/* .ts-wrapper-posts {
     display: flex;
-}
+} */
 
 /* .site-posts-main {
     max-width: 60vw;
