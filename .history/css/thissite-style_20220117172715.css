@@ -28,7 +28,7 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 }
 
 body {
-    font-family: cursive, 'roboto condensed', Arial, Helvetica, sans-serif;
+    font-family: 'roboto condensed', Arial, Helvetica, sans-serif;
     background-color: var(--main-color-2);
 }
 
@@ -127,6 +127,10 @@ p {
 .custom-logo {
     margin-left: 60px;
     margin-top: 100px;
+}
+
+.entry-header h1 {
+    display: none;
 }
 
 .wp-block-buttons.is-content-justification-right>.wp-block-button.wp-block-button,

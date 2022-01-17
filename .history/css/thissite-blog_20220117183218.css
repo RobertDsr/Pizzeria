@@ -58,7 +58,7 @@ Styles for the main blog page
 }
 
 .wp-block-image {
-    margin: 0 auto 3em;
+    margin: 0 auto ;
 }
 
 .ts-post-thumbnail > img:nth-child(1) {

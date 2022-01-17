@@ -15,7 +15,7 @@
 		if ( is_singular() ) :
 			the_title( '<h1 class="entry-title">', '</h1>' );
 		else :
-			the_title( '<h1 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h1>' );
+			the_title( '<h class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h>' );
 		endif;
 
 		if ( 'post' === get_post_type() ) :

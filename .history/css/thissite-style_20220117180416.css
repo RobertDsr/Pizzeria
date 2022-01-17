@@ -28,7 +28,7 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 }
 
 body {
-    font-family: cursive, 'roboto condensed', Arial, Helvetica, sans-serif;
+    font-family: 'roboto condensed', Arial, Helvetica, sans-serif;
     background-color: var(--main-color-2);
 }
 

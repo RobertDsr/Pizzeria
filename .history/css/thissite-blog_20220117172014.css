@@ -2,6 +2,11 @@
 Styles for the main blog page
 */
 
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
 
 .site-main {
     margin: 0 50px;
@@ -15,16 +20,8 @@ Styles for the main blog page
     padding: 100px 0;
 }
 
-.site-posts-main {
-    margin-left: 5vw;
-    padding: 0 100px 30px 0;
-    font-family: cursive;
-    font-size: 18px;
-    color: var(--main-color);
-}
-
 .widget-area-postSidebar {
-    background-color: var(--bg-color-black-gray);
+    color
 }
 
 .entry-title {
@@ -39,26 +36,16 @@ Styles for the main blog page
 .post-thumbnail {
 	display: block;
     /* flex-basis: 50%; */
-    /* padding: 3rem; */
-    margin: 50px 0;
+    padding: 3rem;
 }
 
 .entry-content p {
     /* flex-basis: 50%; */
-    padding: 0 0 3em;
-    font-size: 20px;
+    /* padding: 20px; */
 }
 
 .entry-content span {
     flex-basis: 100%;
-}
-
-.entry-header h1 {
-    font-size: 50px;
-}
-
-.wp-block-image {
-    margin: 0 auto 3em;
 }
 
 .ts-post-thumbnail > img:nth-child(1) {

@@ -45,7 +45,7 @@ Styles for the main blog page
 
 .entry-content p {
     /* flex-basis: 50%; */
-    padding: 0 0 3em;
+    padding: 0 0 30px;
     font-size: 20px;
 }
 
@@ -58,7 +58,7 @@ Styles for the main blog page
 }
 
 .wp-block-image {
-    margin: 0 auto 3em;
+    margin: 0 auto;
 }
 
 .ts-post-thumbnail > img:nth-child(1) {
