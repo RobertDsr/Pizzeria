@@ -1,0 +1,14 @@
+/* 
+Styles for the search page
+*/
+
+.ts-wrapper-search
+
+.site-search-main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.page-search-header {
+    flex-basis: 100vw;
+}

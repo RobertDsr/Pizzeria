@@ -1,0 +1,19 @@
+/* 
+Styles for the search page
+*/
+
+.ts-wrapper-search {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.site-search-main {
+    margin-left: 5vw;
+    padding: ;
+    /* flex-basis: 70%; */
+    /* min-width: 70%; */
+}
+
+.page-search-header {
+    flex-basis: 100vw;
+}

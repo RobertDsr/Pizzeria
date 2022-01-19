@@ -1,0 +1,11 @@
+/* 
+Styles for the search page
+*/
+
+.site-search-main {
+    display: flex;
+}
+
+.page-search-header {
+    flex-basis: 100;
+}
