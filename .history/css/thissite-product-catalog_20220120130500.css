@@ -1,0 +1,63 @@
+/*
+ This is a single product page styles file 
+ */
+
+ #content .boxed #product_details div.shortdesc, .boxed #product_details div.shortdesc {
+	padding: 0 0 7px;
+	border: 0;
+	border-bottom: 1px solid #ccc;
+	line-height: 2;
+	background: 0 0;
+}
+
+ .product-description {
+     background-color: var(--main-color-2)!important;
+     border-color: var(--main-color);
+ }
+
+ .boxed .after-product-details {
+	background-color:var(--main-color-2);
+	border: 1px solid var(--main-color);
+}
+
+#after-product-details .ic_tabs > h3.active, #content .boxed .after-product-details .ic_tabs > h3.active, #product_page .ic_tabs > h3.active, .boxed div.entry-content .after-product-details .ic_tabs > h3.active, .ic_tab_content.active, .ic_tabs > h3.active {
+    background-color: var(--main-color-2);
+    color: var(--main-color);
+    border-bottom: 1px solid var(--main-color);
+}
+
+#after-product-details .ic_tabs > h3, #content .boxed .after-product-details .ic_tabs > h3, #product_page .ic_tabs > h3, .boxed div.entry-content .after-product-details .ic_tabs > h3, .ic_tabs > h3, body .ic_tabs > h3 {
+	border-right: 1px solid var(--main-color);
+	border-bottom: 1px solid var(--main-color);
+	background-color: var(--main-color-2);
+    color: var(--main-color);
+}
+
+h3.active {
+    background-color: var(--bg-color-black-gray)!important;
+}
+
+ .ic_tabs {
+     background-color: var(--bg-color-black-gray);
+ }
+
+ .boxed #product_details .price-container > table, .boxed #product_details .shipping-table-container > table {
+	background-color: var(--bg-color-black-gray);
+	border: 1px solid var(--main-color);
+    border-top: 0;
+	/* color: var(--main-color); */
+}
+
+#content .boxed #product_details > div, #content .boxed #product_details > form, #content .boxed #product_details > table, #content .ic-block, .boxed #product_details > div, .boxed #product_details > form, .boxed #product_details > table, .ic-block {
+	background-color: var(--bg-color-black-gray);
+	border: 1px solid var(--main-color);
+	border-top: 0;
+	margin: 0;
+	line-height: 1;
+	color: #000;
+	width: 100%;
+}
+
+ /* #after-product-details {
+     background-color: var(--main-color-2);
+ } */

@@ -1,0 +1,25 @@
+/*
+ This is a single product page styles file 
+ */
+
+ .product-description {
+     background-color: var(--main-color-2)!important;
+     border-color: var(--main-color);
+ }
+
+ .boxed .after-product-details {
+	background-color:var(--main-color-2);
+	border: 1px solid var(--main-color);
+}
+
+#after-product-details .ic_tabs > h3.active, #content .boxed .after-product-details .ic_tabs > h3.active, #product_page .ic_tabs > h3.active, .boxed div.entry-content .after-product-details .ic_tabs > h3.active, .ic_tab_content.active, .ic_tabs > h3.active {
+    background-color: var();
+}
+
+ .ic_tabs {
+     background-color: var(--bg-color-black-gray);
+ }
+
+ /* #after-product-details {
+     background-color: var(--main-color-2);
+ } */
