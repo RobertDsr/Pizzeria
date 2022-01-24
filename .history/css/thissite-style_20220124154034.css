@@ -399,6 +399,10 @@ input[type="text"], input[type="email"], input[type="url"], input[type="password
 
 @media (max-width: 1799px) {
 
+    /* .menu-item-23 a {
+        font-size: 30px;
+    } */
+
     .site-info {
         flex-basis: 70%;
     }
@@ -416,6 +420,10 @@ input[type="text"], input[type="email"], input[type="url"], input[type="password
 
 @media (max-width: 1490px) {
 
+    /* .menu-item-23 a {
+        font-size: 25px;
+    } */
+
     .promotion p {
         margin-left: 35vw;
     }
@@ -423,14 +431,33 @@ input[type="text"], input[type="email"], input[type="url"], input[type="password
 
 @media (max-width: 1390px) {
 
+    /* .menu-item-19 {
+        margin-left: 30vw;
+    } */
+
     .site-info {
         flex-basis: 50%;
     }
 }
 
+@media (max-width: 1350px) {
+
+    /* .menu-item-19 {
+        margin-left: 30vw;
+    } */
+}
+
 
 
 @media (max-width: 1280px) {
+
+    /* .menu-item-19 {
+        margin-left: 25vw;
+    }
+
+    .menu-item-23 {
+        margin-top: 10px;
+    } */
 
     .logoFooter {
         flex-basis: 20%;
@@ -449,7 +476,23 @@ input[type="text"], input[type="email"], input[type="url"], input[type="password
     }
 }
 
+@media (max-width: 1178px) {
+
+    /* .menu-item-19 {
+        margin-left: 20vw;
+    }
+
+    .menu-item-23 a {
+        font-size: 30px;
+        margin-top: 10px;
+    } */
+}
+
 @media (max-width: 1090px) {
+
+    /* .menu-item-19 {
+        margin-left: 15vw;
+    } */
 
     .promotion p {
         margin-left: 35vw;
@@ -473,6 +516,10 @@ input[type="text"], input[type="email"], input[type="url"], input[type="password
 }
 
 @media (max-width: 1024px) {
+
+    /* .menu-item-19 {
+        margin-left: 10vw;
+    } */
 
     .blocks-gallery-grid,
     .wp-block-gallery {
