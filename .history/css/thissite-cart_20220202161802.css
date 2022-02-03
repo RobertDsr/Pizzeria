@@ -1,0 +1,25 @@
+/* 
+    This is a shoping cart page styles file.
+ */
+
+.page-template-page-cart {
+        background-image: url(../img/pizzaHeader.jpg);
+        background-attachment: fixed;
+}
+
+.ts-wrapper-cart {
+    display: flex;
+    background-color: var(--main-color-2);
+}
+
+.entry-cart {
+    padding: 50px;
+}
+
+.th_name, .th_sku, .th_qty, .th_price, .th_total, .currency-td {
+    color: var(--font-color-white);
+}
+
+.td-price {
+    colo
+}

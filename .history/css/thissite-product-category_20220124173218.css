@@ -1,0 +1,21 @@
+/*
+ This is a product category page styles file 
+ */
+
+ .taxonomy-image {
+    width: 100%;
+}
+
+.entry-content img.product-category-image, .product-category-image {
+	max-width: 100%;
+	max-height: none;
+	width: 100%;
+	height: auto;
+	margin-left: 0;
+	float: none;
+	margin-bottom: 10px;
+}
+
+.al_archive {
+    box-shadow: 0 0 5px var(--bg-color-black-gray);
+}
