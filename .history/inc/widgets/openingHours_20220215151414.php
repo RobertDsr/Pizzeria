@@ -1,3 +1,5 @@
+<!-- widget for entering opening hours  -->
+
 <?php
 
 namespace ThisSite\Theme\Widgets;

@@ -1,8 +1,10 @@
+<!-- widget for entering opening hours  -->
+
 <?php
 
 namespace ThisSite\Theme\Widgets;
 
-class openingHours extends \WP_Widget {
+class openingHours extends WP_Widget {
     public $daysOfWeek;
 
     public function __construct() {
