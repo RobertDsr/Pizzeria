@@ -18,7 +18,7 @@
         <a href="<?php echo esc_url(__('https://robertdreszer.pl/', 'thissite')); ?>">
             <?php
             /* translators: %s: CMS name, i.e. WordPress. */
-            printf(esc_html__('Pod opieką %s', 'thissite'), 'Robert Dreszer');
+            printf(esc_html__('Pro by %s', 'thissite'), 'Robert Dreszer');
             ?>
         </a>
         <span class="sep"> | </span>

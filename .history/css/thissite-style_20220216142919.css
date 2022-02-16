@@ -321,9 +321,7 @@ footer {
     font-size: 1.5rem;
 }
 
-.widget ul {
-    list-style: none;
-}
+.widget 
 
 .thissite-contact-details-widget {
     display: flex;
