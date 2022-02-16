@@ -181,7 +181,7 @@ function thissite_widgets_init() {
 		)
 	);
 
-	register_widget('ThisSite\Theme\Widgets\openingHours');
+	register_widget('ThisSite\Theme\Widgets\OpeningHours');
 	register_widget('ThisSite\Theme\Widgets\contact');
 }
 add_action( 'widgets_init', 'thissite_widgets_init' );
