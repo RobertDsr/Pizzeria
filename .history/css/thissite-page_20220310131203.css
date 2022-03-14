@@ -1,0 +1,25 @@
+/* 
+Styles for subpages
+*/
+
+.ts-wrapper-page {
+    display: flex;
+    margin: 300px 0 0;
+}
+
+.ts_menu_wrapper {
+    /* min-width: 80vw; */
+    width: 70vw;
+    max-width: 100vw;
+    margin: 25px 0 0;
+    padding: 5vw;
+}
+
+.site-main-page {
+    min-height: 100%;
+    background-color:var(--main-color-2);
+}
+
+.entry-content-page.baner-button {
+    margin: -100px 0 auto 30vw;
+}
