@@ -1,0 +1,131 @@
+/* 
+Styles for the main blog page
+*/
+
+/* obrazek nagłówka we wpisach */
+
+.ts-post-thumbnail {
+    position: absolute;
+    filter: opacity(75%);
+}
+
+.ts-post-thumbnail img {
+    max-height: 70vh;
+}
+
+.site-branding {
+    position: relative;
+    z-index: 1;
+}
+
+.post-thumbnail {
+    display: none;
+}
+
+.site-description-blog {
+    color: var(--font-color-white);
+    font-size: 60px;
+    font-style: italic;
+    margin-top: 20vh;
+    text-align: center;
+}
+
+.site-posts {
+    background-color: var(--main-color-2);
+}
+
+.ts-wrapper-posts, .ts-wrapper-post {
+    display: flex;
+    /* padding: 60px 0 0; */
+    margin: 200px 0 0;
+    background-color: var(--main-color-2);
+    min-height: 100vh;
+}
+
+.site-main-posts, .site-post {
+    /* margin: 0 50px; */
+    /* flex-basis: 70%; */
+    min-width: 70%;
+    padding: 0 30px 20px;
+}
+
+/* .site-main-posts {
+    margin: 0 50px;
+} */
+
+/* Pojedynczy post */
+
+.site-main-post {
+    margin-left: 5vw;
+    padding: 0 100px 30px 0;
+    font-size: 18px;
+    color: var(--main-color);
+}
+
+.widget-area-postSidebar {
+    background-color: var(--bg-color-black-gray);
+}
+
+.entry-title {
+	display: block;
+    padding: 3rem;
+}
+
+.entry-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+.post-thumbnail {
+	display: block;
+    margin: 50px 0;
+}
+
+.entry-content p {
+    padding: 0 1em  3em;
+    font-size: 20px;
+}
+
+.promotion p {
+    font-size: 40px;
+}
+
+.entry-content span {
+    flex-basis: 100%;
+}
+
+.entry-header-post h1 {
+    font-size: 50px;
+}
+
+.wp-block-image {
+    margin: 0 auto 3em;
+}
+
+/* .ts-post-thumbnail > img:nth-child(1) {
+    height: 100vh;
+} */
+
+.wp-block-buttons {
+    flex-basis: 100%;
+    justify-content: center;
+}
+
+.wp-block-button.blog-product-button {
+    margin-bottom: 10vh;
+}
+
+.wp-block-button.blog-product-button a {
+    color: var(--font-color-black);
+}
+
+.wp-block-button.blog-product-button a:hover {
+    color: var(--font-color-white);
+}
+
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+	border-color: var(--main-color);
+	background: var
+	color: rgba(0, 0, 0, 0.8);
+	line-height: 1;
+	padding: 0.6em 1em 0.4em;
+}

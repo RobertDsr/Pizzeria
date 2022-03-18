@@ -1,0 +1,30 @@
+/* 
+    This is a shoping cart and checkout page styles file.
+ */
+
+/* .page-template-page-cart {
+        background-image: url(../img/pizzaHeader.jpg);
+        background-attachment: fixed;
+        background-size: 100%;
+} */
+
+.ts-wrapper-cart {
+    display: flex;
+    background-color: var(--main-color-2);
+}
+
+.site-main-cart {
+    flex-grow: 2;
+}
+
+.entry-cart {
+    padding: 50px;
+}
+
+.th_name, .th_sku, .th_qty, .th_price, .th_total, .currency-td {
+    color: var(--font-color-white);
+}
+
+.td-price, .td-total, .total_net, .td-qty, div.ic-form .row .label {
+    color: var(--main-color);
+}

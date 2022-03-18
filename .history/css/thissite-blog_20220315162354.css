@@ -1,0 +1,93 @@
+/* 
+Styles for the main blog page
+*/
+
+.site-descript
+
+.site-posts {
+    background-color: var(--main-color-2);
+}
+
+.ts-wrapper-posts {
+    display: flex;
+    /* padding: 60px 0 0; */
+    margin: 350px 0 0;
+    background-color: var(--main-color-2);
+    min-height: 100vh;
+}
+
+.site-main-posts {
+    margin: 0 50px;
+    flex-basis: 70%;
+    min-width: 70%;
+    padding: 0 0 20px;
+}
+
+/* Pojedynczy post */
+
+.site-main-post {
+    margin-left: 5vw;
+    padding: 0 100px 30px 0;
+    font-size: 18px;
+    color: var(--main-color);
+}
+
+.widget-area-postSidebar {
+    background-color: var(--bg-color-black-gray);
+}
+
+.entry-title {
+	display: block;
+    padding: 3rem;
+}
+
+.entry-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+.post-thumbnail {
+	display: block;
+    margin: 50px 0;
+}
+
+.entry-content p {
+    padding: 0 1em  3em;
+    font-size: 20px;
+}
+
+.promotion p {
+    font-size: 40px;
+}
+
+.entry-content span {
+    flex-basis: 100%;
+}
+
+.entry-header-post h1 {
+    font-size: 50px;
+}
+
+.wp-block-image {
+    margin: 0 auto 3em;
+}
+
+.ts-post-thumbnail > img:nth-child(1) {
+    height: 100vh;
+}
+
+.wp-block-buttons {
+    flex-basis: 100%;
+    justify-content: center;
+}
+
+.wp-block-button.blog-product-button {
+    margin-bottom: 10vh;
+}
+
+.wp-block-button.blog-product-button a {
+    color: var(--font-color-black);
+}
+
+.wp-block-button.blog-product-button a:hover {
+    color: var(--font-color-white);
+}

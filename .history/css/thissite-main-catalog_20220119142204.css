@@ -1,9 +1,0 @@
-/* 
-This is the style file for the product catalog home page.
-*/
-
-.ts-wrapper-products {
-    display: flex;
-    background-color: var(--main-color-2);
-}
-
