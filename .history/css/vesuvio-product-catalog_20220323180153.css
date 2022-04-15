@@ -1,0 +1,90 @@
+/*
+ This is a single product page styles file 
+ */
+
+ /*
+    A short description of the product.  
+*/
+
+ #content .boxed #product_details div.shortdesc, .boxed #product_details div.shortdesc {
+	border-bottom: 1px solid var(--main-color);
+}
+
+/*
+    Box add to cart
+ */
+
+.boxed #product_details .price-container > table, .boxed #product_details .shipping-table-container > table {
+	background-color: var(--bg-color-black-gray);
+}
+
+#content .boxed #product_details > div, #content .boxed #product_details > form, #content .boxed #product_details > table, #content .ic-block, .boxed #product_details > div, .boxed #product_details > form, .boxed #product_details > table, .ic-block {
+	background-color: var(--bg-color-black-gray);
+	border: 1px solid var(--main-color);
+	border-top: 0;
+	color: var(--main-color);
+}
+
+.cart_info {
+    color: var(--main-color);
+}
+
+.price-label {
+    color: var(--main-color)!important;
+}
+
+.green-box.button:active, .green-box.button:focus, .green-box.button {
+	background-color: var(--main-color);
+    color: var(--font-color-black);
+}
+
+#container.content-area.product-catalog #product_listing .ic-design.button, .al_product .ic-design.button, .ic-design.button, article.al_product .ic-design.button, body #main-content a.ic-design.button, body #page-container a.ic-design.button, body .ic-design.button, body a.ic-design.button {
+	border-radius: 3px;
+	cursor: pointer;
+	color: var(--font-color-black);
+}
+
+.green-box.button:active, .green-box.button:focus, .green-box.button:hover {
+	background-color: var(--main-color-hover);
+}
+
+/* 
+    Product description
+ */
+
+ .product-description {
+     background-color: var(--main-color-2)!important;
+     border-color: var(--main-color);
+ }
+
+ .boxed .after-product-details {
+	background-color:var(--main-color-2);
+	border: 1px solid var(--main-color);
+}
+
+#after-product-details .ic_tabs > h3.active, #content .boxed .after-product-details .ic_tabs > h3.active, #product_page .ic_tabs > h3.active, .boxed div.entry-content .after-product-details .ic_tabs > h3.active, .ic_tab_content.active, .ic_tabs > h3.active {
+    background-color: var(--main-color-2);
+    color: var(--main-color);
+    border-bottom: 1px solid var(--main-color);
+}
+
+#after-product-details .ic_tabs > h3, #content .boxed .after-product-details .ic_tabs > h3, #product_page .ic_tabs > h3, .boxed div.entry-content .after-product-details .ic_tabs > h3, .ic_tabs > h3, body .ic_tabs > h3 {
+	border-right: 1px solid var(--main-color);
+	border-bottom: 1px solid var(--main-color);
+	background-color: var(--main-color-2);
+    color: var(--main-color);
+}
+
+h3.active {
+    background-color: var(--bg-color-black-gray)!important;
+}
+
+ .ic_tabs {
+     background-color: var(--bg-color-black-gray);
+ }
+
+ .boxed #product_subcategories, .boxed .related-products, table.ic-block {
+	background-color:var(--main-color-2);
+	background: var(-);
+	border: 1px solid var(--main-color);
+}
