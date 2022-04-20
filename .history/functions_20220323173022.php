@@ -11,7 +11,7 @@
 
 if ( ! defined( 'VESUVIO_VERSION' ) ) {
 	// Replace the version number of the theme on each release.
-	define( 'VESUVIO_VERSION', '1.0.0' );
+	define( 'VESUVIO_VERSION', '1.1.0' );
 }
 
 if ( ! function_exists( 'vesuvio_setup' ) ) :

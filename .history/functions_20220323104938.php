@@ -11,7 +11,7 @@
 
 if ( ! defined( 'THISSITE_VERSION' ) ) {
 	// Replace the version number of the theme on each release.
-	define( 'THISSITE_VERSION', '1.0.0' );
+	define( 'THISSITE_VERSION', '1.1.0' );
 }
 
 if ( ! function_exists( 'thissite_setup' ) ) :
