@@ -10,6 +10,7 @@ Styles for subpages
 .ts_menu_wrapper {
     width: 70vw;
     max-width: 100vw;
+    margin: 25px 0 0;
     padding: 5vw;
 }
 
@@ -19,13 +20,9 @@ Styles for subpages
 }
 
 .wp-block-buttons.is-content-justification-right > .wp-block-button.wp-block-button, .wp-block-buttons > .wp-block-button.wp-block-button.baner-button-page {
-    margin: -700px 0 0 25vw;
+    margin: -500px 0 0 35vw;
 }
 
 .wp-block-buttons.is-content-justification-right > .wp-block-button.wp-block-button, .wp-block-buttons > .wp-block-button.wp-block-button.baner-button-page a strong:hover {
     color: var(--font-color-white);
-}
-
-.wp-block-image.is-style-default.arrowMenu {
-    margin: -300px auto 200px 20vw;
 }

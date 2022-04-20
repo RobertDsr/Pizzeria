@@ -4,7 +4,7 @@ Theme URI: https://robertdreszer.pl/
 Author: Robert Dreszer
 Author URI: http://robertdreszer.pl
 Description: Motyw dla pizzerii
-Version: 1.1.0
+Version: 1.0.0
 Tested up to: 5.4
 Requires PHP: 5.6
 License: GNU General Public License v2 or later
@@ -144,7 +144,8 @@ p {
 
 .wp-image-393 {
     width: 70px;
-    margin-top: 100px;
+    margin-top: -950px;
+    /* margin-bottom: 300px; */
     rotate: 180deg;
 }
 
