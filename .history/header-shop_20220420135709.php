@@ -64,9 +64,7 @@
                                                         ?></p>
 
                 <div class="arrowProducts">
-                    <a href="#primary">
-                        <img class="wp-image-393" src="http://localhost/underscorepluswoo/wp-content/uploads/2022/04/arrow-down-front-2.svg" alt="">
-                    </a>
+                    <a href="#"></a>
                 </div>
                 <?php endif; ?>
             </div><!-- .site-branding -->

@@ -63,11 +63,7 @@
                     <p class="site-description-front"><?php echo $vesuvio_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped 
                                                         ?></p>
 
-                <div class="arrowProducts">
-                    <a href="#primary">
-                        <img class="wp-image-393" src="http://localhost/underscorepluswoo/wp-content/uploads/2022/04/arrow-down-front-2.svg" alt="">
-                    </a>
-                </div>
+                div
                 <?php endif; ?>
             </div><!-- .site-branding -->
             <div class="buttonCartSidebar">

@@ -2,15 +2,11 @@
 This is the style file for the product catalog home page.
 */
 
-.arrowProducts {
-    margin: 0 0 0 50vw;
-}
-
 .ts-wrapper-products {
     display: flex;
     background-color: var(--main-color-2);
     padding: 2rem 0;
-    margin-top: 100px;
+    margin-top: 200px;
 }
 
 .site-main-products {
